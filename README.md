@@ -1,13 +1,14 @@
+# NVIDIA Nemotron Reasoning LoRA Project
+
 ## Kaggle Result
 
 The following screenshots show a recorded competition submission result for this project.
 
 ### Leaderboard Snapshot
-![Leaderboard Snapshot](<img width="902" height="106" alt="屏幕截图 2026-05-18 150218" src="https://github.com/user-attachments/assets/e78cc8fd-a9b0-46c2-98a8-32aac43586ee" />)
+![Leaderboard Snapshot](https://github.com/user-attachments/assets/e78cc8fd-a9b0-46c2-98a8-32aac43586ee)
 
 ### Submission Score
-![Submission Score](<img width="838" height="151" alt="屏幕截图 2026-05-18 150243" src="https://github.com/user-attachments/assets/02a0c0e7-90e4-4472-b232-66f0453bb903" />)
-# NVIDIA Nemotron Reasoning LoRA Project
+![Submission Score](https://github.com/user-attachments/assets/02a0c0e7-90e4-4472-b232-66f0453bb903)
 
 一个围绕 `NVIDIA Nemotron` 的推理微调项目整理版，主线覆盖：
 
