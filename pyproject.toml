@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reasoning-nemotron"
+version = "0.1.0"
+description = "A structured Reasoning LoRA project for the NVIDIA Nemotron Kaggle workflow."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "datasets>=2.21.0",
+  "kagglehub>=0.3.0",
+  "numpy>=1.26.0",
+  "pandas>=2.2.0",
+  "peft>=0.13.0",
+  "polars>=1.8.0",
+  "scikit-learn>=1.5.0",
+  "torch>=2.4.0",
+  "transformers>=4.45.0",
+  "trl>=0.11.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

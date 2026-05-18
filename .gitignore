@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local artifacts
+artifacts/
+temp/
+
+# Model outputs
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+*.zip
+
+# Dataset files kept local
+data/raw/*.csv
+data/processed/*.csv
+data/samples/*.csv
+
+# OS files
+Thumbs.db
+Desktop.ini
+

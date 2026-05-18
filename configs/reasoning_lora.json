@@ -1,0 +1,18 @@
+{
+  "model_handle": "metric/nemotron-3-nano-30b-a3b-bf16/transformers/default",
+  "train_file": "data/processed/my_train_sample_500_boosted.csv",
+  "output_dir": "artifacts/checkpoints/reasoning_lora",
+  "submission_zip": "artifacts/submissions/reasoning_lora_adapter.zip",
+  "lora_rank": 32,
+  "lora_alpha": 64,
+  "lora_dropout": 0.05,
+  "max_seq_len": 512,
+  "num_epochs": 1.0,
+  "per_device_batch_size": 2,
+  "gradient_accumulation_steps": 4,
+  "learning_rate": 0.0002,
+  "warmup_ratio": 0.1,
+  "logging_steps": 5,
+  "use_bf16": true
+}
+
